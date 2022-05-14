@@ -2,6 +2,10 @@
 using JP_TS_11;
 
 
+
+
+
+
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
@@ -21,12 +25,16 @@ finally {
     age = int.Parse(Console.ReadLine());
 } */
 
+Person.Print();
+
 
 
 Person person1 = new Person(15) {  Name="John", Surname="Smith"};
 
 
 //person1.TellMeYourAge();
+/* რეკურსიის მაგალითები გასაკეთებელი!*/
+//person1.Print();
 
 Console.WriteLine($" {person1.Name}, is {person1.Age}, his id is {person1.MyIdIs()}");
 

@@ -31,6 +31,13 @@ namespace JP_TS_11
             return Id;
         }
 
+        public static void Print()
+        {
+           
+            Console.WriteLine("console"); 
+            //this.Print();
+        }
+
 
     }
 }
